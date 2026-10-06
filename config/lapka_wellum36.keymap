@@ -84,7 +84,7 @@
 
         cmbru {
             bindings = <&layer_ru>;
-            key-positions = <28 27 29>;
+            key-positions = <28 29>;
             layers = <0 7>;
         };
 
