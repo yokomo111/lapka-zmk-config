@@ -474,7 +474,7 @@
         layer_14 {
             bindings = <
 &trans  &trans  &trans            &trans            &trans  &trans          &trans          &trans          &trans           &trans
-&trans  &trans  &mmv MOVE_X(100)  &mmv MOVE_Y(100)  &trans  &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans
+&trans  &trans  &mmv MOVE_X(300)  &mmv MOVE_Y(300)  &trans  &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans
 &trans  &trans  &trans            &trans            &trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
                 &trans            &trans            &trans  &trans          &trans          &trans
             >;
