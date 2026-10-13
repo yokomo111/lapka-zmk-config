@@ -131,8 +131,8 @@
             #binding-cells = <0>;
             bindings = <&kp LG(SPACE)>;
             label = "TO_RU";
-            wait-ms = <7>;
-            tap-ms = <7>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         to_en: to_en {
@@ -140,8 +140,8 @@
             #binding-cells = <0>;
             bindings = <&kp LG(SPACE)>;
             label = "TO_EN";
-            wait-ms = <7>;
-            tap-ms = <7>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         layer_en: layer_en {
@@ -149,8 +149,8 @@
             #binding-cells = <0>;
             bindings = <&to 0 &to_en>;
             label = "LAYER_EN";
-            wait-ms = <7>;
-            tap-ms = <7>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         layer_ru: layer_ru {
@@ -158,8 +158,8 @@
             #binding-cells = <0>;
             bindings = <&to 1 &to_ru>;
             label = "LAYER_RU";
-            tap-ms = <7>;
-            wait-ms = <7>;
+            tap-ms = <20>;
+            wait-ms = <20>;
         };
 
         en: en {
@@ -176,8 +176,8 @@
                 <&to_ru>;
 
             label = "EN";
-            wait-ms = <7>;
-            tap-ms = <7>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         test: pwd {
